@@ -1,0 +1,368 @@
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+body{ height: 1000px;
+background: #bcbdc4;}
+header{
+  width: 100%;
+  height: 60px;
+  background: #3b5998;
+  color: white;
+  clear: both;}
+.fblogo{height: 50px;}
+.searchfacebook{ width: 500px;
+  color: #dfe3ee;
+  height: 20px;
+  background: #ffffff;
+  padding: 5px;
+  border-radius: 5px/5px;}
+.leonprofilepic{height: 20px;
+  float: left;
+    margin-left: -200%;
+    margin-top: 30%;
+  }
+  .leonname{
+    float: left;
+        margin-left: -175%;
+        margin-top: 30%;
+  }
+  .homebutton{
+      float: left;
+      margin-left: -125%;
+      margin-top: 30%;
+
+  }
+
+.span{
+  margin-left: -75%;
+  margin-top: 30%;
+  float: left;
+  }
+.toprightnav{
+  list-style-type: none;
+  width: 115px;
+  float: right;
+}
+.multipleusers, .messenger, .notifications, .help, .arrowdown{
+  height: 20px;
+  float: left;
+  margin-top: 30%
+  }
+
+aside{
+  border: 1px solid grey;
+  width: 20%;
+  float: left;
+  clear: both;
+  background: #bcbdc4;}
+.leftsidenav{font-size: 12px;}
+.lsnavigation, ul{list-style: none;
+  padding-left: 0px;}
+.leonprofilepic2, .newsfeed, .messenger2{height: 30px;}
+.newsfeedbox{border: 3px solid white;
+  background: #ffffff;
+  font-weight: bold;}
+.goldtrophy, .emt , .pages, .groups, .events, .friendlist, .manageapps, .insights, .adsmanager, .greyarrow{
+  height: 20px;}
+section{width: 50%;
+  height: 425px;
+  border: 1px solid black;
+  float: left;
+  background: white;}
+.headline{
+  background: white;
+  font-size: 12px;
+}
+.doubleborder{background: url("pokemon_go_logo.png") no-repeat;
+background-size: cover;
+  border: 1px solid grey;
+  height: 195px;
+  width: 40%;
+background-position: -55px -5px;}
+.doubleborder2{ border: 1px solid grey;
+  height: 195px;
+  width: 60%;
+  float: left;
+  margin-top: -195px;
+  clear: both;
+  font-size: 12px;
+  float: right;
+  background: # ffffff;}
+.photosection{width: 200px;
+  height: 200px;
+  margin-top: -5px;
+  margin-left: -5px;}
+.doubleborder2 > h3{color: grey;
+  font-size: 8px;}
+.line1{border: 1px solid grey;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 5px;}
+
+.likecommentshare ul li{
+float: left;
+margin-right: 5%;
+font-size: 12px;
+}
+
+.likelove{
+border: none;
+}
+
+
+
+.comments{border: 1px solid grey;
+  height: 300px;
+  width: 100%;
+  background: #bcbdc4;
+  font-size: 10px;
+  color: blue;
+    border-top: none;
+  }
+
+  .commentsection{
+    margin-top: 6%;
+  }
+.likecomment1{
+  height: 20px;
+      margin-bottom: -7%;
+      height: 20px;
+}
+.lovecomment1{
+  height: 20px;
+      margin-bottom: -7%;
+      height: 20px;
+          margin-left: -35%;
+}
+.twenty2{
+  float: left;
+margin-top: 6%;
+margin-left: -27%;
+}
+
+.line2{border: 1px solid grey;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 5px;}
+
+.firstcomment, .secondcomment, .thirdcomment{color: black;
+  margin-left: 20%;
+  margin-top: -4%;}
+
+  .smalltext{
+color: black;
+margin-left: 85px;
+  }
+  .smalltext2{
+    float: left;
+    margin-left: 110px;
+    margin-top: -18px;
+    color: black;
+  }
+  .help3{
+
+  }
+.gifphoto, .peeling{height: 10px;}
+.icons2{margin-top: -18px;
+margin-left: 95px;}
+.as, .ce, .mc{height: 25px;}
+.profilename{
+  margin-left: 30px;
+  margin-top: -30px;
+}
+.likebutton2{height: 10px;
+    margin-left: 6%;
+    position: absolute;
+margin-top: -0.8%;
+  }
+
+.like{
+  float: left;
+    margin-left: 30px;
+    margin-right: 10px;
+        margin-top: -10px;
+}
+
+.reply{
+  float: left;
+    margin-left: 50px;
+    margin-right: 10px;
+        margin-top: -10px;
+}
+
+.rightside{
+  border: 1px solid grey;
+  width: 30%;
+  float: right;
+background-color: silver;}
+.innertop{border: 1px solid white;
+  height: 175px;
+  width: 90%;
+  background-color: #ffffff;
+  clear: both;
+  margin-top: 10px;
+  margin-left: 13px;}
+.icons3{height: 20px;
+  margin-top: -19px;
+  float: right;
+  margin-left: 15px;}
+.trending{font-size: 10px;}
+.trendingrightside{height: 10px;}
+ul, p{font-size: 8px;}
+.greyquestionmark{height: 10px;
+float: right;
+margin-top: -10px;}
+.trendingtopics{color: blue;}
+.middlerightside{border: 1px solid white;
+  height: 150px;
+  width: 90%;
+  background-color: #ffffff;
+  clear: both;
+  margin-top: 10px;
+  margin-left: 13px;}
+.friendrequests{font-size: 10px;
+color: grey;}
+.seeallrightside{color: blue;
+font-size: 8px;
+float: right;
+clear: both;
+margin-top: -20px;
+margin-right: 20px;}
+.imagesrightside{height: 30px;
+float: left;
+clear: both;
+width: 10%;}
+.friendrequestnames{font-size: 12px;
+color: blue;
+margin-left: 40px;
+}
+.friendrequestnames2{margin-left: 5px;}
+
+.rightsidebottombox{border: 1px solid white;
+  height: 20px;
+  width: 90%;
+  background-color: #ffffff;
+  clear: both;
+  margin-top: 10px;
+  margin-left: 13px;}
+.rightsidebottombox2{border: 1px solid white;
+    height: 60px;
+    width: 90%;
+    background-color: #ffffff;
+    clear: both;
+    margin-top: 10px;
+    margin-left: 13px;}
+.rightsidenav{color: blue;
+  font-size: 8px;
+  list-style-type: disc;
+  margin-left: 15px;
+}
+.english{color: grey;
+    float: left;
+      margin-right: 35px;
+      font-size: 12px;
+    }
+    .espanol{
+          float: left;
+              margin-right: 35px;
+              font-size: 12px;
+    }
+    .brasil{
+          float: left;
+              margin-right: 5px;
+              font-size: 12px;
+    }
+    .france{
+          float: left;
+              margin-right: 35px;
+              font-size: 12px;
+    }
+
+    .dutch{
+      font-size: 12px;
+          float: left;
+    }
+
+    .bottomnav{
+
+    }
+.privacy{
+  font-size: 12px;
+  color: grey;
+  float: left;
+      margin-left: 18px;
+}
+.terms{
+  font-size: 12px;
+  color: grey;
+      margin-left: 45px;
+      float: left;
+}
+
+.ads{
+  font-size: 12px;
+  color: grey;
+      margin-left: 45px;
+      float: left;
+}
+
+.adchoices1{
+  font-size: 12px;
+  color: grey;
+      margin-left: 45px;
+      float: left;
+      margin-top: -3px;
+}
+
+.adchoices{
+  height: 10px;
+}
+
+.cookies{
+  font-size: 12px;
+  color: grey;
+    float: left;
+    margin-top: 7%;
+    margin-left: -86%;
+}
+
+.moremore{
+  font-size: 12px;
+  color: grey;
+    float: left;
+    margin-top: 7%;
+    margin-left: -65%;
+}
+
+.greycopyright{
+
+  height: 10px;
+}
+
+
+.plussign{height: 10px;
+  float: right;
+  margin-top: -10px;
+  margin-right: 15px;
+}
+footer{border: 1px solid grey;
+  height: 80px;
+  width: 30%;
+  float: right;
+  clear: both;
+  border-top: none;
+  border-bottom: none;}
+.greyarrow2{
+  height: 20px;
+  margin-top: 22px;
+  margin-left: -57%;
+}
+.fb{
+    font-size: 12px;
+      color: grey;
+      margin-left: 20px;
+      list-style-type: none;
+    margin-top: 10px;
+}

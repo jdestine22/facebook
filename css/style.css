@@ -1,0 +1,764 @@
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+.alignright {
+	float: right;
+	padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+	float: left;
+	padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: Helvetica, Arial, sans-serif;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+#container {
+	width: 960px;
+	margin: auto;
+}
+
+header {
+  width: 100%;
+  height: 40px;
+  background: #355088;
+  color: white;
+  clear: both;
+}
+
+footer {
+ height: 100px;
+ background: red;
+
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+.fbLogo{
+  height: 35px;
+  float: left;
+}
+
+.searchFacebook{
+  border-radius: 3px;
+  width: 35%;
+  height: 25px;
+  color: lightgrey;
+  float: left;
+  margin-top: 0.5%;
+}
+
+#rightNavBar{
+  height: 35px;
+  width: 15%;
+  float: right;
+}
+
+#rightNavBar ul li{
+  float: left;
+  margin-left: 5%;
+}
+
+#rightNavBar .leonprofilepic img{
+  margin-top: -5px;
+  height: 25px;
+  margin-left: -2.5%;
+}
+
+#rightNavBar ul .color{
+  color: black;
+}
+
+.boxshadow{
+  box-shadow: 2px 2px 2px 2px #111A2D;
+}
+
+#rightNavIcons{
+  height: 35px;
+  width: 20%;
+  float: right;
+}
+
+.multipleusers, .messenger, .notifications, .help{
+  height: 25px;
+}
+
+.arrowdown{
+  height: 10px;
+}
+
+#rightNavIcons ul li{
+  float: left;
+  padding-right: 5%;
+  margin-top: -2%;
+}
+
+#rightNavIcons ul .color{
+  color: black;
+}
+
+#leftside{
+  width: 19%;
+  background-color: #EAEBED;
+  padding-left: 1%;
+}
+.leftsidenav{
+  border: 1px solid #EAEBED;
+  height: 750px;
+  width: 95%;
+}
+
+
+.leftsidenav .lsnavigation .leonprofilepic2{
+  height: 20px;
+  margin-left: -20%;
+  padding-right: 3%;
+}
+
+.leftsidenav  .lsnavigation li{
+  margin-left: -5%;
+}
+
+.leftsidenav .lsnavigation .newsfeed{
+  height: 30px;
+  margin-left: -22%;
+}
+
+.leftsidenav .lsnavigation .newsfeedbox{
+  margin-top: 5%;
+}
+
+.leftsidenav .messenger2{
+  height: 25px;
+  margin-left: -20%;
+  padding-right: 4px;
+}
+
+.shortcuts{
+  width: 95%;
+}
+
+.shortcuts h4{
+  margin-left: -25%;
+  margin-bottom: 25%;
+}
+
+.leftsidenav .shortcuts li{
+  margin-left: -5%;
+  margin-top: -15%;
+}
+
+.goldtrophy{
+  height: 30px;
+  margin-left: -20%;
+  margin-right: 5%;
+}
+
+.explore{
+  width: 95%;
+}
+
+.explore h4{
+  margin-left: -25%;
+  margin-top: 0%;
+}
+
+.pages, .groups, .events, .friendlist, .manageapps, .insights, .adsmanager, .greyarrow{
+  height: 25px;
+  margin-right: 5%;
+}
+
+.explore li{
+  margin-left: -25%;
+
+}
+
+.seemore{
+  color: #0C68BE;
+  text-decoration: none;
+}
+
+.explore span{
+  float: right;
+  margin-top: -13%;
+}
+
+.create li{
+  margin-left: -15%;
+  float: left;
+  padding-right: 30%;
+  list-style-type: disc;
+  color: #0C68BE;
+}
+
+.create a{
+  color: #0C68BE;
+  text-decoration: none;
+}
+
+
+.create h4{
+  margin-left: -25%;
+  margin-top: 0%;
+}
+
+#topsection{
+  width: 50%;
+  float: left;
+  margin-top: -58%;
+  margin-left: 19.5%;
+}
+
+.toptext{
+  width: 100%;
+}
+
+.emt{
+  height: 40px;
+  margin-left: 1%;
+  margin-top: 1%;
+}
+
+.toptext h3{
+  margin-left: 8%;
+  margin-top: -6%;
+  color: #5B7896;
+  width: 75%;
+}
+
+.toptext span{
+  color: #999999;
+}
+
+.toptext ul li{
+  float: left;
+  margin-left: 2%;
+  list-style-type: none;
+}
+
+.toptext p {
+  margin-top: 5%;
+  width: 82%;
+  font-size: 1.3em;
+}
+
+#topsection .longtext{
+  margin-top: -1%;
+}
+
+.bottomtext{
+  width: 100%;
+}
+
+.pokemonpic{
+  height: 185px;
+  width: 30%;
+  border: 1px solid #999999;
+  background: url(pokemon.png) no-repeat;
+  background-size: cover;
+  background-position: -55px 0px;
+}
+
+.pokemontext{
+  width: 54%;
+  height: 185px;
+  border: 1px solid #999999;
+  float: left;
+  margin-top: -28.9%;
+  margin-left: 30%;
+}
+
+.pokemontext h2{
+  width: 78%;
+  font-weight: normal;
+}
+
+.pokemontext p{
+  width:85%;
+}
+
+.line1{
+  border: 1px solid #999999;
+  width: 84%;
+  margin-top: 2%;
+}
+
+.likecommentshare ul li{
+  list-style-type: none;
+  float: left;
+  padding-right: 9%;
+  margin-left: -5%;
+}
+
+#bottomsection{
+  height: 320px;
+  width: 51%;
+  border: 1px solid #F5F5F5;
+  background-color: #F5F5F5;
+  margin-top: -25%;
+  margin-left: 19%;
+}
+
+.likelovenumbers{
+  width: 15%;
+  height: 40px;
+}
+
+.line2{
+  border: 1px solid #999999;
+  width: 95%;
+  margin-left: 2%;
+}
+
+.like1, .love1{
+  height: 15px;
+  margin-top: 10%;
+}
+
+.commentsection{
+  width: 100%;
+  height: 300px;
+  margin-top: 2%;
+}
+
+.comments{
+  height: 290px;
+  width: 100%;
+}
+
+.as{
+  height: 30px;
+  float: left;
+}
+
+.comments .namecomment li{
+  list-style-type: none;
+  padding-right: 2%;
+  float: left;
+  margin-top: -1px;
+}
+
+.pokemontext h5{
+  color: silver;
+}
+
+.comments .likereply li{
+  margin-top: 3%;
+  float: left;
+  list-style-type: none;
+  margin-bottom: 2%;
+  margin-right: 0px;
+  margin-left: -49.5%;
+  padding-right: 50.5%;
+}
+
+.likebutton2{
+  height: 15px;
+  float: left;
+}
+
+.ce{
+  height: 30px;
+  margin-right: 24%;
+}
+
+.comments .chrisevans{
+  margin-top: -3%;
+  margin-left: -3%;
+}
+
+.chrisevans li{
+  list-style-type: none;
+  float: left;
+  margin-left: 3%;
+  margin-top: -2.5%;
+}
+
+.comments .chrisevanslikereply li{
+  float: left;
+  list-style-type: none;
+  padding-right: 6px;
+  margin-top: -8px;
+}
+
+.mc{
+  height: 30px;
+  margin-top: 3%;
+  margin-left: -20%;
+}
+
+.comments .mattcullen{
+  margin-top: -5.5%;
+  margin-left: -3%;
+}
+
+.comments .mattcullen li{
+  margin-left: 3%;
+  list-style-type: none;
+}
+
+.comments .mattcullen .awful{
+  margin-left: 15%;
+  margin-top: -16px;
+}
+
+.comments .mattcullenlikereply li{
+  list-style-type: none;
+  float: left;
+  padding-right: 2%;
+  margin-top: -1%;
+}
+
+.comments h5{
+  color: #0C68BE;
+}
+
+.colorlike{
+  color: #0C68BE;
+}
+
+.colorspan{
+  color: #AFACAC;
+}
+
+.name{
+  color: #0C68BE;
+}
+
+.profilename{
+  color: #0C68BE;
+}
+
+.bottomtextpic{
+  height: 30px;
+  margin-top: 4%;
+  margin-left: -26%;
+}
+
+.writecomment{
+  padding-right: 69%;
+  padding-top: 1.25%;
+  padding-bottom: 1.25%;
+  position: relative;
+  bottom: 9px;
+  margin-left: 5px;
+}
+
+.fa-search{
+  margin-top: 1%;
+  margin-left: -2%;
+  color: black;
+  background: #f3f3f3;
+  padding: 5px 5px 5px 10px;
+  height: 58%;
+  width: 31px;
+  position: relative;
+  bottom: 13%;
+  right: 5px;
+}
+
+#rightside{
+  height: 750px;
+  width: 30%;
+  float: right;
+  margin-top: -58.6%;
+  background-color: #CBC9C9;
+}
+
+.trending{
+  margin-left: 3%;
+  width: 87%;
+  background: white;
+  margin-top: 15px;
+}
+
+.trendingtext{
+  width: 100%;
+  padding-top: 1px;
+}
+
+.trending h2{
+  color: #AFACAC;
+}
+
+.icons3{
+  height: 20px;
+}
+
+.trendingtext .trendingtopics li{
+  float: right;
+  list-style-type: none;
+  margin-top: 5px;
+  padding-right: 10px;
+}
+
+.trendingtopics{
+  margin-top: -13%;
+}
+
+.trendingpic{
+  height: 20px;
+  margin-top: 35px;
+}
+
+.trendingtopicstext{
+  list-style-type: none;
+  margin-top: -25px;
+}
+
+.trendingtopicstext li p{
+  margin-top: 0px;
+}
+
+.trendingtopicstext li span{
+    color: lightgrey;
+}
+
+.trendingpicramnath{
+  height: 20px;
+}
+
+.ramnath{
+  list-style-type: none;
+  margin-top: -25px;
+}
+
+.ramnath li p{
+  margin-top: 0px;
+}
+
+.ramnath li span{
+    color: lightgrey;
+}
+
+.johnmccainpic{
+  height: 20px;
+}
+
+.johnmccain{
+  list-style-type: none;
+  margin-top: -25px;
+}
+
+.johnmccain li p{
+  margin-top: 0px;
+}
+
+.johnmccain li span{
+  color: lightgrey;
+}
+
+.title{
+  color: #0C68BE;
+}
+
+.fa-caret-down{
+  color: #0C68BE;
+  margin-left: -25%;
+}
+
+.seemorenav{
+  list-style-type: none;
+  padding-bottom: 5%;
+}
+
+.seemorenav li{
+  float: left;
+
+}
+
+.fa-question{
+  color: #AFACAC;
+  float: right;
+  margin-right: 15px;
+}
+
+.friendrequestnames{
+  height: 250px;
+  width: 100%;
+  margin-left: 3%;
+  width: 87%;
+  background: white;
+  margin-top: 18px;
+}
+
+.gifphoto{
+  height: 15px;
+}
+
+.iconswrite{
+  list-style-type: none;
+  margin-left: 75%;
+  margin-top: -35px;
+}
+
+.iconswrite li{
+  float: left;
+  padding-right: 5px;
+}
+
+.friendrequests{
+  padding-top: 15px;
+  color: #AFACAC;
+}
+
+.seeallrightside{
+  float: right;
+  margin-top: -35px;
+  color: #0C68BE;
+}
+
+.imagesrightside{
+  height: 50px;
+  margin-left: 4%;
+  margin-bottom: 3%;
+}
+
+.user{
+  height: 50px;
+  margin-left: 4%;
+  margin-top: 10px;
+}
+
+.darlene{
+  list-style-type: none;
+  margin-left: 20%;
+  margin-top: -20%;
+}
+
+.confirmfriend{
+  margin-left: 20%;
+}
+.william{
+  list-style-type: none;
+  margin-left: 10%;
+  margin-top: -20%;
+}
+
+.williamconfirmfriend{
+  margin-left: 10%;
+}
+
+.louis{
+  list-style-type: none;
+  margin-left: 20%;
+  margin-top: -17%;
+}
+
+.nameul{
+  margin-top: 0px;
+}
+
+.louisperez{
+  height: 50px;
+  margin-left: 4%;
+  margin-top: 10px;
+}
+
+.louisconfirmfriend{
+  margin-left: 20%;
+}
+
+.smallbox{
+  height: 40px;
+  margin-left: 3%;
+  width: 87%;
+  background: white;
+  margin-top: 15px;
+}
+
+.lasttext{
+  margin-left: 3%;
+  width: 87%;
+  background: white;
+  margin-top: 15px;
+  height: 60px;
+  }
+
+.languages ul li{
+  float: left;
+  margin-top: 2.5%;
+  padding-right: 5%;
+  list-style-type: none;
+}
+
+.languages{
+  margin-left: -10%;
+  color: #0C68BE;
+}
+
+.english{
+  color: #AFACAC;
+
+}
+
+.footnotes{
+  list-style-type: none;
+  margin-left: -25px;
+}
+
+.footnotes li{
+  float: left;
+  padding-right: 30px;
+}
+
+.adchoices{
+  height: 10px;
+}
+
+.greyarrow2{
+  height: 10px;
+}
+
+.greycopyright{
+  height: 10px;
+}
+
+.fa-globe{
+  color: grey;
+}
+
+.plus{
+  margin-left: 45px;
+  margin-top: 20px;
+}
